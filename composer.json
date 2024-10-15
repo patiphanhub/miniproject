@@ -1,0 +1,6 @@
+{
+    "name": "patiphan/my-project-main",
+    "description": "A simple PHP project",
+    "type": "project",
+    "require": {}
+}
