@@ -1,6 +1,0 @@
-RewriteBase /
-# อนุญาตการใช้ .htaccess บน Apache
-AllowOverride All
-
-# กำหนดหน้าเริ่มต้น
-DirectoryIndex index.php
