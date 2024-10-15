@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/wallpaper.gif');
+    background-size: cover; /* ปรับให้ภาพครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ทำซ้ำภาพ */
+    height: 100vh; /* ปรับความสูงให้เต็มหน้าจอ */
+    width: 100%;
+    background-color: transparent; /* พื้นหลังโปร่งใส */
+    overflow: hidden; /* ป้องกันการเลื่อนของส่วนเกิน */
+}
+
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.quote {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.enter-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* ปรับขนาดให้ใหญ่ขึ้นเพื่อให้ดูนูน */
+}
