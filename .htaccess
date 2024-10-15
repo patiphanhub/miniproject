@@ -1,8 +1,0 @@
-# กำหนดให้ใช้ index.php เป็นหน้าเริ่มต้น
-DirectoryIndex index.php
-
-# อนุญาตการเข้าถึงทั้งหมด
-<Directory "C:/xampp/htdocs/My-project-main">
-    AllowOverride All
-    Require all granted
-</Directory>
